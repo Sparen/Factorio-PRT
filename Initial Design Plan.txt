@@ -1,0 +1,55 @@
+Factorio Mod: PRT Pods
+
+Premise: Personal Rapid Transit Pods along predetermined routes. 
+
+Prerequisite Research
+-Automated Rail Transport
+-Solar Panels
+-Accumulators
+-Electric Engines
+
+New Components:
+-PRT Pod [Req: 20 Steel, 20 Electric Circuits, 10 Electric Engines, 4 Solar Panels, 4 Accumulators]
+
+Description:
+-Unidirectional small pods incapable of holding cargo, running along fixed routes (grouped under a RGB color and a name)
+-Pods are very small and therefore can be grouped tightly
+-Pods require no energy or fuel, due to Solar Panels and Accumulators being equipped already
+-Pods have route field, there is a Pod Controller GUI that lists routes, number of pods on route, and location of those pods. GUI works similar to train GUI. Pods do not show up in Train GUI.
+-Upon creating a pod on rail, they must be assigned a route, which in turn determines their color. If possible, a text label can be placed on the top and side of the pod to show the info. This is an extended feature.
+-On world map, pods have different graphic representation from trains
+-Pods move with same speed and signal restrictions as trains
+
+Advantages:
+-No need for personal train, setting fuel, etc. Fully automated, no fuel necessary
+-Show up, wait, and ride. Pods stop at a station for exactly 5 seconds (may be globally configurable, or configurable by route in the future)
+
+Disadvantages:
+-Running pods on already congested train corridors causes backups, etc. Therefore, pods will require separate track for best capacity in high-traffic areas
+-Signalling for max capacity of pods is expensive due to the significantly higher number of pods needed.
+-More trains means harder crossings
+
+Rail Alternatives (Alt A):
+-Custom track type and stations.
+-Advantages: Separate from standard rail, better control over system (in implementation), possibility of one-tile wide track for tight clustering, smaller turning loops (which are required), new and smaller stations. Possibility of fully elevated track.
+-Disadvantages: Crossings between main rail system and this system become problematic, unless the track is recognized as rail track and the signals used are the same as the standard rail system. Additionally, turns and curves have to be implemented.
+-Elevated Possibility: Requires elevated track signalling, slopes, and grade separation logic. Additionally, may require a method for elevated stations
+-Note: Custom track has possibility of built-in signalling, where there are two types of track, one for block and one for chain.
+-Best alternative is 100% elevated track, with elevated stations. Elevation is an illusion - the pods simply have no collision boxes. Signals are placed on the ground. Stations are placed on the ground, and the player enters the pod from the ground.
+
+Alt A New Components:
+-PRT Track [Req: 1 Steel Plate, 1 Iron Stick]
+-PRT Stop [Req: 5 Electronic Circuits, 10 Iron Plate, 3 Steel Plate]
+
+Timeline:
+-Determine which system to use (direct integration or separate system)
+-Prepare graphics
+-Implement PRT Pods (for length, loading, etc testing)
+-Implement Routes and GUI (colors, name, timing, assignment of PRT Pods to routes, having PRT pods follow those routes)
+-Implement Full
+-Publish
+
+Final notes:
+-PRT Pods MUST be considered trains but MUST NOT show up on main train GUI
+-Standard signals MUST be used to enable safe grade crossings, regardless of the alternative chosen
+-PRT Pods CANNOT use fuel and CANNOT be manually driven
