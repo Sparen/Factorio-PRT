@@ -1,0 +1,31 @@
+Factorio Mod 
+
+Sparen's PRT Mod
+
+Version 3 revision: Jan 3, 2017
+
+Mod Description:
+This mod provides Factorio with Personal Rapid Transit capabilities, using completely grade-segregated train-logic mini-pods on special track. The pods are solar powered and require no fuel. Two types of special stations are used that do not appear in normal train schedules, and the pods do not appear in the main Train GUI.
+
+PRT track is one tile thick and two tiles long. A pod is therefore of the same dimensions. PRT systems are one-directional. There is one main type of track - PRT Track. There are others as well (for curves, bridges, etc). Signals will be custom items specifically for PRT (without collision boxes, but otherwise the same as standard railway signals except for their graphics), with the same construction requirements as standard signals. What percentage of track should be signalled depends on the number of players in-game, although all junctions should be appropriately signaled. All stations should be signalled at maximum capacity, with each unit of holding track being block signalled.
+
+PRT Pods cannot hold cargo. Due to the fact that a complete set of bidirectional track can be placed in the space of one normal railroad track (note: once again, this depends on turning loops - the minimum distance will likely be two tiles between track, though this has yet to be determined. 
+
+On the world map (minimap), PRT track and pods will likely have different colors from ordinary rail and trains. PRT pods will have a significantly higher maximum speed compared to ordinary trains due to their real life low weight and electric traction.
+
+Advantages of the system include no need for personal trains and no need for fueling trains used primarily for custom transportation. You show up at a station, board a pod, select a destination, and ride. The pod will return to its home station after you have disembarked (you can jump off of the pod at any time, though this is not recommended).
+
+The system is rather expensive to set up, as the pods are expensive and many pods are needed for maximum convenience and usability. Additionally, to run well, many stations are required. Two types of stations are used for this network - source and destination stations. Source stations function as home stations for a given pod, which will return to that station when empty. Destination stations are stations a pod can travel to. Stations themselves will likely be around the same size as a standard train station. The player will board directly from the ground and select their destination from the pod's GUI. PRT pods CANNOT be manually driven and will not have the option.
+
+Pod Alternatives:
+Selected Alternative:
+One Pod Fits All - only one type of pod that provides faster-than-railway max speed.
+
+Structural Alternatives:
+PRT track is elevated and the pods therefore have no collision box. However, the track requires supports. 
+
+Selected Alternative:
+All straight track units have supports in the middle. How this will work with diagonal track has yet to be determined. For crossing roads and rail, there will be a separate bridge unit that is six tiles long, with the source and destination tiles having supports. This allows for the viaduct to cross one two-way unit of railway, or two adjacent straight railway tracks. For crossing a standard railway setup, two bridges can be used. For non-standard railway setups, crossing railway may be an issue.
+
+Implementation:
+-
