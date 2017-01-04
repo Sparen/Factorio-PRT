@@ -10,6 +10,10 @@ data:extend({
             },
             {
                 type = "unlock-recipe",
+                recipe = "prt-curved-rail"
+            },
+            {
+                type = "unlock-recipe",
                 recipe = "prt-block-signal"
             },
             {

@@ -13,6 +13,17 @@ data:extend(
         },
         {
             type = "recipe",
+            name = "prt-curved-rail",
+            enabled = "false",
+            ingredients = {
+                {"concrete", 4},
+                {"steel-plate", 2}
+            },
+            result = "prt-curved-rail",
+            result_count = 1
+        },
+        {
+            type = "recipe",
             name = "prt-block-signal",
             enabled = "false",
             ingredients = {
