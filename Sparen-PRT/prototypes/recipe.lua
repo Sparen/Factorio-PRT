@@ -64,7 +64,7 @@ data:extend(
             result = "prt-destination-stop"
         },
         {
-            type = "recipe-with-entity-data",
+            type = "recipe",
             name = "prt-pod",
             enabled = "false",
             ingredients = {
