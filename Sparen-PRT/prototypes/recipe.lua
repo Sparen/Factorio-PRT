@@ -3,7 +3,7 @@ data:extend(
         {
             type = "recipe",
             name = "prt-straight-rail",
-            enabled = "false"
+            enabled = "false",
             ingredients = {
                 {"concrete", 2},
                 {"steel-plate", 1}
@@ -14,7 +14,7 @@ data:extend(
         {
             type = "recipe",
             name = "prt-block-signal",
-            enabled = "false"
+            enabled = "false",
             ingredients = {
                 {"electronic-circuit", 1},
                 {"iron-plate", 5}
@@ -24,7 +24,7 @@ data:extend(
         {
             type = "recipe",
             name = "prt-chain-signal",
-            enabled = "false"
+            enabled = "false",
             ingredients = {
                 {"electronic-circuit", 1},
                 {"iron-plate", 5}
@@ -34,7 +34,7 @@ data:extend(
         {
             type = "recipe",
             name = "prt-bridge",
-            enabled = "false"
+            enabled = "false",
             ingredients = {
                 {"concrete", 4},
                 {"steel-plate", 8}
@@ -44,7 +44,7 @@ data:extend(
         {
             type = "recipe",
             name = "prt-source-stop",
-            enabled = "false"
+            enabled = "false",
             ingredients = {
                 {"electronic-circuit", 5},
                 {"iron-plate", 10},
@@ -55,7 +55,7 @@ data:extend(
         {
             type = "recipe",
             name = "prt-destination-stop",
-            enabled = "false"
+            enabled = "false",
             ingredients = {
                 {"electronic-circuit", 5},
                 {"iron-plate", 10},
@@ -66,7 +66,7 @@ data:extend(
         {
             type = "recipe-with-entity-data",
             name = "prt-pod",
-            enabled = "false"
+            enabled = "false",
             ingredients = {
                 {"steel-plate", 16},
                 {"advanced-circuit", 10},
