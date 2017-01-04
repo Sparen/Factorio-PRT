@@ -58,9 +58,9 @@ data:extend(
         max_health = 1000,
         corpse = "medium-remnants",
         dying_explosion = "medium-explosion",
-        collision_box = {{0, 0}, {0, 0}},
-        selection_box = {{-1, -1.5}, {1, 1.5}},
-        drawing_box = {{-1, -2}, {1, 1.5}},
+        collision_box = {{-0.6, -2.6}, {0.6, 2.6}},
+        selection_box = {{-0.85, -2.6}, {0.9, 2.5}},
+        drawing_box = {{-1, -4}, {1, 3}},
         weight = 500,
         max_speed = 4,
         max_power = 1 .. "MW",
@@ -141,7 +141,7 @@ data:extend(
         },
         back_light = rolling_stock_back_light(),
         stand_by_light = rolling_stock_stand_by_light(),
-        color = {r = 0.92, g = 0.07, b = 0, a = 0.5},
+        color = {r = 0, g = 0, b = 0, a = 0.5},
         pictures =
         {
             layers =
