@@ -70,7 +70,7 @@ data:extend(
             ingredients = {
                 {"steel-plate", 16},
                 {"advanced-circuit", 10},
-                {"electric-engine", 2},
+                {"electric-engine-unit", 2},
                 {"solar-panel", 5},
                 {"accumulator", 5}
             },

@@ -12,11 +12,21 @@ data:extend(
         },
         {
             type = "item",
+            name = "prt-curved-rail",
+            icon = "__Sparen-PRT__/graphics/icons/prt-rail-placeholder.png",
+            flags = {"goes-to-quickbar"},
+            subgroup = "transport",
+            order = "c[prt-transport]-c[prt-curved-rail]",
+            place_result = "prt-straight-rail",
+            stack_size = 100
+        },
+        {
+            type = "item",
             name = "prt-block-signal",
             icon = "__Sparen-PRT__/graphics/icons/prt-rail-placeholder.png",
             flags = {"goes-to-quickbar"},
             subgroup = "transport",
-            order = "c[prt-transport]-f[prt-block-signal]",
+            order = "c[prt-transport]-q[prt-block-signal]",
             place_result = "prt-block-signal",
             stack_size = 50
         },
@@ -26,7 +36,7 @@ data:extend(
             icon = "__Sparen-PRT__/graphics/icons/prt-rail-placeholder.png",
             flags = {"goes-to-quickbar"},
             subgroup = "transport",
-            order = "c[prt-transport]-g[prt-chain-signal]",
+            order = "c[prt-transport]-r[prt-chain-signal]",
             place_result = "prt-chain-signal",
             stack_size = 50
         },
@@ -36,7 +46,7 @@ data:extend(
             icon = "__Sparen-PRT__/graphics/icons/prt-rail-placeholder.png",
             flags = {"goes-to-quickbar"},
             subgroup = "transport",
-            order = "c[prt-transport]-c[prt-bridge]",
+            order = "c[prt-transport]-d[prt-bridge]",
             place_result = "prt-bridge",
             stack_size = 100
         },
@@ -46,7 +56,7 @@ data:extend(
             icon = "__Sparen-PRT__/graphics/icons/prt-rail-placeholder.png",
             flags = {"goes-to-quickbar"},
             subgroup = "transport",
-            order = "c[prt-transport]-d[prt-source-stop]",
+            order = "c[prt-transport]-k[prt-source-stop]",
             place_result = "prt-source-stop",
             stack_size = 10
         },
@@ -56,7 +66,7 @@ data:extend(
             icon = "__Sparen-PRT__/graphics/icons/prt-rail-placeholder.png",
             flags = {"goes-to-quickbar"},
             subgroup = "transport",
-            order = "c[prt-transport]-e[prt-destination-stop]",
+            order = "c[prt-transport]-l[prt-destination-stop]",
             place_result = "prt-destination-stop",
             stack_size = 10
         },
