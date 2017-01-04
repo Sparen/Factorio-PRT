@@ -42,6 +42,28 @@ data:extend(
             result = "prt-bridge"
         },
         {
+            type = "recipe",
+            name = "prt-source-stop",
+            enabled = "false"
+            ingredients = {
+                {"electronic-circuit", 5},
+                {"iron-plate", 10},
+                {"steel-plate", 3}
+            },
+            result = "prt-source-stop"
+        },
+        {
+            type = "recipe",
+            name = "prt-destination-stop",
+            enabled = "false"
+            ingredients = {
+                {"electronic-circuit", 5},
+                {"iron-plate", 10},
+                {"steel-plate", 3}
+            },
+            result = "prt-destination-stop"
+        },
+        {
             type = "recipe-with-entity-data",
             name = "prt-pod",
             enabled = "false"
