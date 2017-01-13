@@ -2,7 +2,7 @@ data:extend({
     {
         type = "technology",
         name = "prttech",
-        icon = "__Sparen-PRT__/graphics/icon_prt_tech.png",
+        icon = "__Sparen-PRT__/graphics/technology/icon_prt_tech.png",
         effects = {
             {
                 type = "unlock-recipe",
