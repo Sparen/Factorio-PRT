@@ -8,47 +8,6 @@ end
 data:extend(
 {
     {
-        type = "straight-rail",
-        name = "prt-straight-rail",
-        icon = "__base__/graphics/icons/rail.png",
-        flags = {"placeable-neutral", "player-creation", "building-direction-8-way"},
-        minable = {mining_time = 0.5, result = "prt-straight-rail"},
-        max_health = 100,
-        corpse = "straight-rail-remnants",
-        resistances =
-        {
-            {
-                type = "fire",
-                percent = 100
-            }
-        },
-        collision_box = {{-0.7, -0.8}, {0.7, 0.8}},
-        selection_box = {{-0.7, -0.8}, {0.7, 0.8}},
-        rail_category = "regular",
-        pictures = railpictures()
-    },
-    {
-        type = "curved-rail",
-        name = "prt-curved-rail",
-        icon = "__base__/graphics/icons/curved-rail.png",
-        flags = {"placeable-neutral", "player-creation", "building-direction-8-way"},
-        minable = {mining_time = 0.5, result = "prt-curved-rail"},
-        max_health = 200,
-        corpse = "curved-rail-remnants",
-        resistances =
-        {
-            {
-                type = "fire",
-                percent = 100
-            }
-        },
-        collision_box = {{-0.75, -0.55}, {0.75, 1.6}},
-        secondary_collision_box = {{-0.65, -2.43}, {0.65, 2.43}},
-        selection_box = {{-1.7, -0.8}, {1.7, 0.8}},
-        rail_category = "regular",
-        pictures = railpictures()
-    },
-    {
         type = "locomotive",
         name = "prt-pod",
         icon = "__Sparen-PRT__/graphics/icons/prt-pod-placeholder.png",

@@ -1,0 +1,33 @@
+Factorio Mod 
+
+Sparen's PRT Mod
+
+Version 4 revision: Aug 25, 2017
+
+Mod Description:
+This mod provides Factorio with Personal Rapid Transit capabilities (sort of), using mini-pods on standard track. The pods are solar powered and require no fuel. 
+
+Originally, the premise for this mod included unique stations and track, as well as complete grade separation. These have all since been scrapped due to lack of support in-game. Additionally, single tile thick track doesn't exactly work visually. 
+
+Pods will be shorter than a standard locomotive at 3 tiles long. All stations used as PRT Source Stations should be signalled at maximum capacity, with each unit of holding track being block signalled.
+
+PRT Pods cannot hold cargo. Whether or not they will be couple-able to other trains is yet to be decided (they are automatic but cannot run in an automated fashion due to their wiring).
+
+On the world map (minimap), PRT pods will likely have different colors from ordinary trains. PRT pods will have a significantly higher maximum speed compared to ordinary trains due to their real life low weight and electric traction (500ish?).
+
+Advantages of the system include no need for personal trains (provided there is a robust network) and no need for fueling trains used primarily for custom transportation. You show up at a station, board a pod, select a destination, and ride. The pod will return to its home/source station after you have disembarked or after 10 seconds of inactivity at the destination (you can jump off of the pod at any time, though this is not recommended).
+
+The system is rather expensive to set up, as the pods are expensive and many pods are needed for maximum convenience and usability. Additionally, to run well, many source stations are required. Source stations function as home stations for a given pod, which will return to that station after usage. Destination stations are stations a pod can travel to. PRT pods CANNOT be manually driven and will not have the option. The pods will likely replace standard locomotives as personal trains as there will be no requirement to lug fuel around in inventory.
+
+Pods will not have the ability for their color to be changed. They will be single-direction and will require turning loops to function properly (i.e. not deadlock)
+
+~~~
+
+As a stretch goal, using the fueling strategy for standard railway pods could be possible (i.e. shuttles), but this will require disabling coupling or it will be abused as a free way to transport goods.
+
+Pod Alternatives:
+Selected Alternative:
+One Pod Fits All - only one type of pod that provides faster-than-railway max speed.
+
+Implementation:
+-
